@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowIndex</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="~/Scripts/jquery-3.6.4.min.js"></script>
+    <script src="~/Scripts/Employee.js"></script>
+</head>
+<body>
+    <br />
+    <div class="container">
+        <div class="form-control">
+            <form>
+                <div id="Hidden" style="display:none" class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Employee ID</label>
+                        <input type="number" class="form-control" id="ID" placeholder="ID">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Employee Name</label>
+                        <input type="text" class="form-control" id="Name" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Email</label>
+                        <input type="email" class="form-control" id="Email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Employee Phone Number</label>
+                        <input type="number" class="form-control" id="Phone" placeholder="Phone">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Employee Salary</label>
+                        <input type="number" class="form-control" id="Salary" placeholder="Salary">
+                    </div>
+                </div>
+
+                <button type="submit" onclick="BtnSubmit();" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
